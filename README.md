@@ -6,7 +6,7 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        String csvFile = "C:\\Users\\kamal\\Downloads\\HOUSE .csv"; // ✅ Replace with your actual path
+        String csvFile = "C:\\Users\\kamal\\Downloads\\HOUSE .csv"; // 
         String line;
         String csvSplitBy = ",";
         
@@ -52,7 +52,7 @@ public class Main {
                 sumX2Y += x2 * y;
             }
 
-            // Calculate coefficients using Normal Equation approximation
+    
             double denominator = (sumX1Sq * sumX2Sq - sumX1X2 * sumX1X2);
             double b1 = (sumX2Sq * sumX1Y - sumX1X2 * sumX2Y) / denominator;
             double b2 = (sumX1Sq * sumX2Y - sumX1X2 * sumX1Y) / denominator;

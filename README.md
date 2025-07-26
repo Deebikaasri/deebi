@@ -6,7 +6,7 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        String csvFile = "C:\\Users\\kamal\\Downloads\\HOUSE .csv"; // 
+        String csvFile = "C:\\Users\\kamal\\Downloads\\HOUSE .csv"; 
         String line;
         String csvSplitBy = ",";
         
